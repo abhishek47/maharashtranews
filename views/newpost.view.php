@@ -7,7 +7,7 @@
 
 <div class="container"> 
   <br><br>
-  <form>
+  <form method="POST" action="post.php">
   <div class="form-group">
     <label for="title">Article Title</label>
     <input type="text" class="form-control" id="title" name="title" aria-describedby="titlehelp" placeholder="Enter Title">
@@ -17,7 +17,7 @@
 
    <div class="form-group">
     <label for="title">Article Body</label>
-    <textarea rows="20" name="body" class="form-control"></textarea>
+    <textarea rows="10" name="body" class="form-control"></textarea>
     <small id="titlehelp" class="form-text text-muted">The title to be given to the article.</small>
   </div>
 

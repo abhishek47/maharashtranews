@@ -58,7 +58,7 @@ body {
 .jumbotron.banner.short {
 	height: 140px;
 	padding-top: 3rem;
-	 background-position: 20%;
+	 background-position: top;
 }
 
 
@@ -100,8 +100,12 @@ body {
 
 .card > img {
   margin-bottom: .75rem;
+  height: 220px;
 }
 
+.card > a {
+      font-size: 20px;
+}
 .card-text {
   font-size: 85%;
 }

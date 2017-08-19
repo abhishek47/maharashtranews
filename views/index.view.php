@@ -4,7 +4,7 @@
 
 	<div class="jumbotron ticker">
 	  <div class="container">
-		<marquee>Trending : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</marquee>
+		<marquee>ट्रेंडिंग : <?= $trending; ?></marquee>
 	  </div>
 	</div>
 
@@ -14,114 +14,22 @@
     <div class="album text-muted">
       <div class="container">
 
+
         <div class="row">
          <div class="col-md-10"> 
-          <div class="card">
-            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-            <a href="article.php">The Article Title</a>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="text-muted">Nashik</p>
-          </div>
-          <div class="card">
-            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-            <a href="article.php">The Article Title</a>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          
+         <?php foreach ($articles as $key => $article) : ?> 
 
-            <p class="text-muted">Nashik</p>
-          </div>
           <div class="card">
-            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-            <a href="article.php">The Article Title</a>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-
-            <p class="text-muted">Nashik</p>
+            <img src="assets/images/01.jpg" alt="Card image cap">
+            <a href="article.php?id=<?= $article->id; ?>"><?= $article->title; ?></a>
+            <p class="card-text"><?= substr($article->body, 0, 200); ?>...</p>
+            <p class="text-muted" style="text-transform: capitalize;"><?= $article->category; ?></p>
           </div>
 
-          <div class="card">
-            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-            <a href="article.php">The Article Title</a>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-
-            <p class="text-muted">Nashik</p>
-          </div>
-          <div class="card">
-            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-            <a href="article.php">The Article Title</a>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-
-            <p class="text-muted">Nashik</p>
-          </div>
-          <div class="card">
-            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-            <a href="article.php">The Article Title</a>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-
-            <p class="text-muted">Nashik</p>
-          </div>
-
-          <div class="card">
-            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-            <a href="article.php">The Article Title</a>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-
-            <p class="text-muted">Nashik</p>
-          </div>
-          <div class="card">
-            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-            <a href="article.php">The Article Title</a>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-
-            <p class="text-muted">Nashik</p>
-          </div>
-          <div class="card">
-            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-            <a href="article.php">The Article Title</a>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-
-            <p class="text-muted">Nashik</p>
-          </div>
-
-          <div class="card">
-            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- CV AD 3 -->
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-8430312518838448"
-                 data-ad-slot="5931605819"
-                 data-ad-format="auto"></ins>
-            <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-
-            </div>
-
-             <div class="card">
-            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- CV AD 3 -->
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-8430312518838448"
-                 data-ad-slot="5931605819"
-                 data-ad-format="auto"></ins>
-            <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-
-            </div>
-
-             <div class="card">
-            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- CV AD 3 -->
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-8430312518838448"
-                 data-ad-slot="5931605819"
-                 data-ad-format="auto"></ins>
-            <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-
-            </div>
+        <?php endforeach; ?>
+          
+          
 
 
           </div>
@@ -168,6 +76,19 @@
           	</div>	
       	  </div>
         </div>
+
+        <div>
+         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- CV AD 3 -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-8430312518838448"
+                 data-ad-slot="5931605819"
+                 data-ad-format="auto"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+</div>
 
       </div>
     </div>
