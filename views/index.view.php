@@ -28,6 +28,8 @@
           </div>
 
         <?php endforeach; ?>
+
+        
           
           
 
@@ -35,6 +37,16 @@
           </div>
 
           <div class="col-md-2"> 
+            <div>
+             <a href="https://www.accuweather.com/en/in/nashik/189304/weather-forecast/189304" class="aw-widget-legal">
+<!--
+By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at https://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at https://www.accuweather.com/en/privacy.
+-->
+</a><div id="awcc1503196128175" class="aw-widget-current"  data-locationkey="189304" data-unit="c" data-language="en-us" data-useip="false" data-uid="awcc1503196128175"></div><script type="text/javascript" src="https://oap.accuweather.com/launch.js"></script>
+            </div>
+            <div>
+               <script src="//www.cricruns.com/system/application/views/widgetBase/wid_300_200_1.js" type="text/javascript"></script>
+            </div>
           	<div>
           		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <!-- CV AD 1 -->

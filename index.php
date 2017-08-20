@@ -8,7 +8,14 @@ $articlesQuery->execute();
 
 $articles = $articlesQuery->rowCount() ? $articlesQuery->fetchAll(PDO::FETCH_OBJ) : []; 
 
-$trending = $articles[0]->title;
+if($articles)
+{
+	$trending = $articles[0]->title;
+} else {
+	$trending = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.";
+}
+
+
 
 
 include 'views/index.view.php';
