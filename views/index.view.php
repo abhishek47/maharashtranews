@@ -17,6 +17,14 @@
 
         <div class="row">
          <div class="col-md-10"> 
+         
+      <div>
+        <a href="https://www.accuweather.com/en/in/nashik/189304/weather-forecast/189304" class="aw-widget-legal">
+<!--
+By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at https://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at https://www.accuweather.com/en/privacy.
+-->
+</a><div id="awcc1503196936203" class="aw-widget-current"  data-locationkey="189304" data-unit="c" data-language="en-us" data-useip="false" data-uid="awcc1503196936203"></div><script type="text/javascript" src="https://oap.accuweather.com/launch.js"></script>
+      </div>
           
          <?php foreach ($articles as $key => $article) : ?> 
 
@@ -37,54 +45,45 @@
           </div>
 
           <div class="col-md-2"> 
-            <div>
-             <a href="https://www.accuweather.com/en/in/nashik/189304/weather-forecast/189304" class="aw-widget-legal">
-<!--
-By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at https://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at https://www.accuweather.com/en/privacy.
--->
-</a><div id="awcc1503196128175" class="aw-widget-current"  data-locationkey="189304" data-unit="c" data-language="en-us" data-useip="false" data-uid="awcc1503196128175"></div><script type="text/javascript" src="https://oap.accuweather.com/launch.js"></script>
-            </div>
+           
             <div>
                <script src="//www.cricruns.com/system/application/views/widgetBase/wid_300_200_1.js" type="text/javascript"></script>
             </div>
           	<div>
           		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- CV AD 1 -->
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-8430312518838448"
-                 data-ad-slot="9164273811"
-                 data-ad-format="auto"></ins>
-            <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
+                <!-- MN AD 1 -->
+                <ins class="adsbygoogle"
+                     style="display:inline-block;width:336px;height:280px"
+                     data-ad-client="ca-pub-8430312518838448"
+                     data-ad-slot="7893479035"></ins>
+                <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
           	</div>	
           	<br>
           	<div>
           		 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- CV AD 2 -->
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-8430312518838448"
-                 data-ad-slot="3117740219"
-                 data-ad-format="auto"></ins>
-            <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
+                <!-- MN AD 2 -->
+                <ins class="adsbygoogle"
+                     style="display:inline-block;width:336px;height:280px"
+                     data-ad-client="ca-pub-8430312518838448"
+                     data-ad-slot="9051659792"></ins>
+                <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
           	</div>	
 
           	<br>
           	<div>
           		 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- CV AD 2 -->
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-8430312518838448"
-                 data-ad-slot="3117740219"
-                 data-ad-format="auto"></ins>
-            <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
+<!-- MN AD 3 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8430312518838448"
+     data-ad-slot="4653427399"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
           	</div>	
       	  </div>
         </div>

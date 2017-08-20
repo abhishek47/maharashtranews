@@ -31,7 +31,10 @@
       <option value="pune">Pune</option>
       <option value="maharashtra">Maharashtra</option>
       <option value="india">India</option>
-      <option value="others">Others</option>
+      <option value="world">विश्व</option>
+      <option value="sports">क्रीडा</option>
+      <option value="interviews">मुलाखत</option>
+      <option value="others">इतर</option>
       
     </select>
     <small id="categoryhelp" class="form-text text-muted">The category that article belongs to.</small>

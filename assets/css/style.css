@@ -35,7 +35,7 @@ body {
   background-image: url('../images/banner1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; 
+  background-position: 0 -220px ; 
 }
 
 .jumbotron.banner p {
